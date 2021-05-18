@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css defie1</title>
+</head>
+<style>
+  * {
+    margin:0;
+    padding:0;
+    background: #998235;
+    
+  }
+
+  
+  
+ .tete{
+  height:11rem;
+  width: 11rem;
+  background-color: #1A4341;
+  border-radius: 50%;
+  display: inline-block;
+   z-index: 100;
+  }
+  
+
+  
+  .contains-tete{
+    display:flex;
+    justify-content: center;
+    margin-top:-12rem;
+  }
+  
+  .oreille{
+     display:flex;
+     justify-content: center;
+     margin-top:2.1rem;
+  }
+  
+  .teteoreille{
+    clip-path: ellipse(18% 40% at 50% 50%);
+    display: inline-block;
+    background-color: #1A4341;
+    padding:7rem;
+  }
+  
+  .teteoreille-replace1{
+    clip-path: ellipse(14% 38% at 53% 50%);
+     background-color: #0B2429;
+     padding:7rem;
+    
+  }
+  
+   .teteoreille-replace2{
+    clip-path: ellipse(14% 38% at 47% 50%);
+     background-color: #0B2429;
+     padding:7rem;
+  }
+  
+  .oreille-replace{
+     display:flex;
+     justify-content: center;
+     margin-top:-14rem;
+  }
+  
+ 
+  
+  .barbe:before{ 
+     margin-left: 42rem;
+     content: "";
+     width:10px;
+     padding:15px;
+     height:100px;
+     margin-top:-4rem;
+     position:fixed;
+     z-index:1000;
+     background:#0B2429;
+     border-top-right-radius: 25px;
+     border-top-left-radius: 25px;
+  }
+ 
+  .half-circle { 
+    width: 75px;
+    height: 45px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px; 
+    border: 21px solid white; border-bottom: 0;
+    margin-left: 39.5rem;
+    margin-top:-3.5rem;
+    position:fixed;
+    z-index:100;
+    background:none;
+    
+  }
+  
+  .yeux{
+     display:flex;
+     justify-content: center;
+  }
+  
+  .oeil{
+    width: 19px;
+    height: 10px ;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px; 
+    border: 11px solid #998235; border-bottom:0;
+    margin-left: 39rem;
+    margin-top:-3.5rem;
+    position:fixed;
+    z-index:100;
+    background:#0B2429;
+     transform: rotate(180deg) ;
+    margin-top:-6rem;
+
+  }
+  
+    .oeil1{
+    width: 19px;
+    height: 10px ;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px; 
+    border: 11px solid #998235; border-bottom:0;
+    margin-left: 44rem;
+    margin-top:-3.5rem;
+    position:fixed;
+    z-index:100;
+    background:#0B2429;
+     transform: rotate(180deg) ;
+    margin-top:-6rem;
+
+  }
+
+</style>
+<body>
+  <div class="oreille">
+    <div class="teteoreille"></div>
+    <div class="teteoreille"></div>
+   </div>
+    
+   <div class="oreille-replace">
+    <div class="teteoreille-replace1"></div>
+    <div class="teteoreille-replace2"></div>
+   </div>
+
+    <div class="contains-tete">
+      <div></div>
+       <div class="tete"></div>
+      <div></div>
+    </div>
+   
+
+   <div class="barbe"></div>
+   <div class="half-circle"></div>
+
+  <div class="oeil"></div>
+
+  <div class="oeil1"></div>
+</body>
+</html>
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
